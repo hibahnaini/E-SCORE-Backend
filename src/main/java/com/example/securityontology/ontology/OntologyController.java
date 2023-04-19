@@ -480,7 +480,7 @@ public class OntologyController {
                     //System.out.println(this.getAllCriteria());
                     JSONObject object = new JSONObject();
                     object.put("insert", sQuery);
-                    model.write(new FileWriter(new File("C:\\Users\\hnainihi\\Desktop\\AIDTools\\outputModel.owl")));
+                    model.write(new FileWriter(new File("C:\\Users\\outputModel.owl")));
                     return object;
                 } catch (Exception e) {
                     e.printStackTrace();
